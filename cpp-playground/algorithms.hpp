@@ -1,12 +1,7 @@
-//
-//  algorithms.hpp
-//  cpp-playground
-//
-//  Created by Merlin Jones on 22/12/2022.
-//
-
 #ifndef algorithms_hpp
 #define algorithms_hpp
+
+void foo();
 
 #include <stdio.h>
 
