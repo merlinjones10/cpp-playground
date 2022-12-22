@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		2094ED2B29547151006B690D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2094ED2A29547151006B690D /* main.cpp */; };
+		2094ED36295471AA006B690D /* algorithms.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2094ED34295471AA006B690D /* algorithms.cpp */; };
+		2094ED39295471E7006B690D /* codewars.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2094ED37295471E7006B690D /* codewars.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,10 @@
 /* Begin PBXFileReference section */
 		2094ED2729547151006B690D /* cpp-playground */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "cpp-playground"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2094ED2A29547151006B690D /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		2094ED34295471AA006B690D /* algorithms.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = algorithms.cpp; sourceTree = "<group>"; };
+		2094ED35295471AA006B690D /* algorithms.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = algorithms.hpp; sourceTree = "<group>"; };
+		2094ED37295471E7006B690D /* codewars.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = codewars.cpp; sourceTree = "<group>"; };
+		2094ED38295471E7006B690D /* codewars.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = codewars.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +63,10 @@
 		2094ED2929547151006B690D /* cpp-playground */ = {
 			isa = PBXGroup;
 			children = (
+				2094ED34295471AA006B690D /* algorithms.cpp */,
+				2094ED37295471E7006B690D /* codewars.cpp */,
+				2094ED38295471E7006B690D /* codewars.hpp */,
+				2094ED35295471AA006B690D /* algorithms.hpp */,
 				2094ED2A29547151006B690D /* main.cpp */,
 			);
 			path = "cpp-playground";
@@ -120,6 +130,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				2094ED2B29547151006B690D /* main.cpp in Sources */,
+				2094ED39295471E7006B690D /* codewars.cpp in Sources */,
+				2094ED36295471AA006B690D /* algorithms.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
