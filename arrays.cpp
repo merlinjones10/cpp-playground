@@ -80,13 +80,12 @@ int exampleRead()
     return 0;
 }
 
-int main()
-{
+//int main()
+//{
 //    cout << planets[0] << std::endl;
-    
 //    writeToFile();
 //    exampleWrite();
 //    exampleRead();
-    readFile();
-    return 0;
-}
+//    readFile();
+//    return 0;
+//}

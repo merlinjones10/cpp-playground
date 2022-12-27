@@ -11,6 +11,7 @@
 		2094ED36295471AA006B690D /* algorithms.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2094ED34295471AA006B690D /* algorithms.cpp */; };
 		2094ED39295471E7006B690D /* codewars.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2094ED37295471E7006B690D /* codewars.cpp */; };
 		2094ED3C29547A2D006B690D /* arrays.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2094ED3A29547A2D006B690D /* arrays.cpp */; };
+		20EE3576295B60D900E0B5E0 /* first-program.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 20EE3574295B60D900E0B5E0 /* first-program.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -36,6 +37,8 @@
 		2094ED3B29547A2D006B690D /* arrays.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = arrays.hpp; sourceTree = SOURCE_ROOT; };
 		2094ED3E295489F4006B690D /* file1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = file1.txt; sourceTree = "<group>"; };
 		2094ED3F29548ACE006B690D /* array.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = array.txt; sourceTree = "<group>"; };
+		20EE3574295B60D900E0B5E0 /* first-program.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "first-program.cpp"; path = "cpp-playground/first-program.cpp"; sourceTree = "<group>"; };
+		20EE3575295B60D900E0B5E0 /* first-program.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = "first-program.hpp"; path = "cpp-playground/first-program.hpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +55,11 @@
 		2094ED1E29547151006B690D = {
 			isa = PBXGroup;
 			children = (
+				20EE3574295B60D900E0B5E0 /* first-program.cpp */,
+				20EE3575295B60D900E0B5E0 /* first-program.hpp */,
 				2094ED3F29548ACE006B690D /* array.txt */,
 				2094ED3E295489F4006B690D /* file1.txt */,
+				2094ED2A29547151006B690D /* main.cpp */,
 				2094ED2929547151006B690D /* cpp-playground */,
 				2094ED2829547151006B690D /* Products */,
 			);
@@ -76,7 +82,6 @@
 				2094ED37295471E7006B690D /* codewars.cpp */,
 				2094ED38295471E7006B690D /* codewars.hpp */,
 				2094ED35295471AA006B690D /* algorithms.hpp */,
-				2094ED2A29547151006B690D /* main.cpp */,
 			);
 			path = "cpp-playground";
 			sourceTree = "<group>";
@@ -140,6 +145,7 @@
 			files = (
 				2094ED2B29547151006B690D /* main.cpp in Sources */,
 				2094ED3C29547A2D006B690D /* arrays.cpp in Sources */,
+				20EE3576295B60D900E0B5E0 /* first-program.cpp in Sources */,
 				2094ED39295471E7006B690D /* codewars.cpp in Sources */,
 				2094ED36295471AA006B690D /* algorithms.cpp in Sources */,
 			);

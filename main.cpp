@@ -2,6 +2,9 @@
 #include <vector>
 #include "codewars.hpp"
 #include "algorithms.hpp"
+#include "first-program.hpp"
+
+
 
 
 std::vector<int> countBy(int x,int n);
@@ -15,9 +18,10 @@ int getValueFromUser()
     return input;
 }
 
-//int main()
-//{
-//    foo();
-//    return 0;
-//}
-//
+int main()
+{
+    energyTracker();
+    std::cout << '\n' <<"finished" << '\n';
+    return 0;
+}
+
