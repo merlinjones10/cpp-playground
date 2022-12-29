@@ -39,6 +39,7 @@
 		2094ED3F29548ACE006B690D /* array.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = array.txt; sourceTree = "<group>"; };
 		20EE3574295B60D900E0B5E0 /* first-program.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "first-program.cpp"; path = "cpp-playground/first-program.cpp"; sourceTree = "<group>"; };
 		20EE3575295B60D900E0B5E0 /* first-program.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = "first-program.hpp"; path = "cpp-playground/first-program.hpp"; sourceTree = "<group>"; };
+		20EE3577295DD63D00E0B5E0 /* energyStream.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = energyStream.csv; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +57,7 @@
 			isa = PBXGroup;
 			children = (
 				20EE3574295B60D900E0B5E0 /* first-program.cpp */,
+				20EE3577295DD63D00E0B5E0 /* energyStream.csv */,
 				20EE3575295B60D900E0B5E0 /* first-program.hpp */,
 				2094ED3F29548ACE006B690D /* array.txt */,
 				2094ED3E295489F4006B690D /* file1.txt */,

@@ -3,6 +3,8 @@
 #include <string>
 #include <iostream>
 #include <ctime>
+#include <fstream>
+
 
 using namespace std;
 
@@ -37,6 +39,28 @@ string getTimeOfDay() {
     return to_string(t);
 }
 
+int csvFileWrite(string entry) {
+    fstream strm;
+    strm.open("/Users/merlinjones/code/cpp/cpp-playground/energyStream.csv", ios_base::out);
+    if (!strm.is_open()) {
+        cout << "File could not be opened!" << endl;
+        return 1;
+    }
+
+    string str = entry;
+
+    strm << str;
+    strm.close();
+    if (strm.is_open()){
+        cout << "Stream could not close!" << endl;
+        return 1;
+    }
+    cout << "Success, check file" << endl;
+    return 0;
+}
+
+
+
 
 void energyTracker() {
     string comma = ", ";
@@ -44,6 +68,7 @@ void energyTracker() {
     string userEnergy = getUserEnergy();
     string computedTime = getDateTime();
     string concatStr = x + comma + userEnergy + comma + computedTime + '\n';
+    csvFileWrite(concatStr);
     cout << concatStr << '\n';
 }
 
