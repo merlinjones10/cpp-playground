@@ -67,7 +67,7 @@ void energyTracker() {
     string x = getTimeOfDay();
     string userEnergy = getUserEnergy();
     string computedTime = getDateTime();
-    string concatStr = x + comma + userEnergy + comma + computedTime + '\n';
+    string concatStr = '\n' + x + comma + userEnergy + comma + computedTime + '\n';
     csvFileWrite(concatStr);
     cout << concatStr << '\n';
 }
